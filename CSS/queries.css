@@ -1,0 +1,195 @@
+@media only screen and (max-height: 500px) {
+    .headlineText{
+        position: absolute;
+        top: 2%;
+        font-size: 80%;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+    .workIMG img{
+        margin: 0px 20px 0px 10px;
+    }
+    
+    .portImg img{
+        margin: 0px 20px 0px 10px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+
+    
+    
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .workIMG img{
+        width: 150px;
+        height: 150px;
+    }
+    
+    header {
+    background-attachment: local;
+    }
+    
+}
+
+
+@media only screen and (max-width: 700px) {
+    .about h3 {
+    font-size: 120%;
+}
+
+.aboutDescription{
+    font-size: 80%;
+}
+
+.talkingPoints {
+    font-size: 85%;
+    margin: 1px;
+}
+
+.histDescription{
+    font-size: 80%
+}
+.histDescription em {
+    font-size: 75%;
+    font-weight: 700;
+}
+.job {
+    font-size: 90%
+}
+
+.philDescription {
+    font-size: 80%;
+}
+
+blockquote p {
+    font-size: 80%;
+}
+cite p {
+    font-size: 80%;
+}
+    
+.workIMG img {
+    width: 100px;
+    height: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .workIMG img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .btnFull {
+        display: block;
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
+    }
+    
+    .btnGhost {
+        display: block;
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
+    }
+    
+    .headlineText h1 {
+        font-size: 250%;
+        text-align: center;
+    }
+    
+    .title{
+        font-size: 120%;
+        text-align: center;
+    }
+    
+    .headlineText h2 {
+        font-size: 120%;
+        text-align: center;
+    }
+    
+    .contactIcon {
+        font-size: 500%   
+    }
+
+    .skills a{
+        font-size: 80%;
+    }
+    
+    .skills .progress .progress-bar{
+        font-size: 80%;
+    }
+    
+    .portfolio{
+        font-size: 90%;
+    }
+
+
+}
+    
+@media only screen and (max-width: 625px) {
+    .siteHeader img{
+        visibility: hidden;
+        display: none;
+    }
+    
+    .siteHeader h3 {
+        text-align: center;
+    }
+}
+    
+@media only screen and (max-width: 480px) {
+    .workIMG img {
+        width: 100px;
+        height: 100px;
+        margin-left: 35%;
+    }
+    
+    .contactIcon {
+        font-size: 350%   
+    }
+    
+    .skills a{
+        font-size: 50%;
+        font-weight: 700;
+    }
+    
+    .skills .progress .progress-bar{
+        font-size: 50%;
+        font-weight: 700;
+    }
+    
+    .carouseldiv{
+        visibility: hidden;
+        height: 0px;
+    }
+    
+    .tile img{
+    width: 75%;
+}
+    .headlineText h1{
+        font-size: 90%
+    }
+    
+    .headlineText a{
+        font-size: 80%;
+    }
+    
+    .headlineText h2{
+        font-size: 80%
+    }
+    
+    .title {
+        margin-bottom: 0px;
+        font-size: 90%
+    }
+    
+}
