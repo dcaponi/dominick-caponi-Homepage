@@ -17,6 +17,10 @@
     .portImg img{
         margin: 0px 20px 0px 10px;
     }
+    
+    .modLink{
+        height: 100px;
+    }
 }
 
 @media only screen and (max-width: 990px) {
@@ -173,8 +177,11 @@ cite p {
     }
     
     .tile img{
-    width: 75%;
+        width: 100%;
 }
+    .tile{
+        margin: 10px 0px;
+    }
     .headlineText h1{
         font-size: 90%
     }
@@ -192,4 +199,11 @@ cite p {
         font-size: 90%
     }
     
+}
+
+@media only screen and (max-width: 420px) {
+    .modal-footer a{
+        width: 100%;
+        text-align: center;
+    }
 }

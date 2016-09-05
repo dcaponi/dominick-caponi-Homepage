@@ -420,38 +420,21 @@ background-color: #f5f1ff;
     padding-bottom: 50px;
 }
 
-
-#slideshow { 
-    margin: 10px auto;
-    position: relative; 
-    width: 300px; 
-    height: 300px;  
+.siteFeatures li a{
+    color: rgb(195, 125, 30);
+    font-weight: 700;
+    font-size: 90%;
+}
+.siteFeatures li a:hover{
+    text-decoration: none;
 }
 
-#slideshow > div { 
-    position: absolute; 
+#slideshow{
+    width: 100%;
+    height: 350px
 }
-
-#slideshow2 { 
-    margin: 10px auto;
-    position: relative; 
-    width: 300px; 
-    height: 300px;  
-}
-
-#slideshow2 > div { 
-    position: absolute; 
-}
-
-#slideshow3 { 
-    margin: 10px auto;
-    position: relative; 
-    width: 500px; 
-    height: 300px;  
-}
-
-#slideshow3 > div { 
-    position: absolute; 
+#slideshow img{
+    height: 350px;
 }
 
 .siteTitle{
@@ -484,19 +467,19 @@ background-color: #f5f1ff;
     height: 100%;
 }
 
-.modBTN{
+.modLink{
     background-color: #fff;
     display: inline-block;
     width: 100%;
-    margin: 10px;
-    height: 100px;
-    transform: scale(.8);
-    transition: transform 0.2s
+    height: 150px;
+    transform: scale(.9);
+    transition: transform 0.2s;
 }
 
-.modBTN:hover{
+.modLink:hover{
     transform: scale(1);
-    transition: transform 0.2s
+    transition: transform 0.2s;
+    text-decoration: none;
 }
 
 .modPan{
